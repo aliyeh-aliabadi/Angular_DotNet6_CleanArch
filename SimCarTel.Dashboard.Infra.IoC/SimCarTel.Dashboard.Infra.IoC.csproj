@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SimCarTel.Dashboard.Application\SimCarTel.Dashboard.Application.csproj" />
+    <ProjectReference Include="..\SimCarTel.Dashboard.Data\SimCarTel.Dashboard.Data.csproj" />
+  </ItemGroup>
+
+</Project>
